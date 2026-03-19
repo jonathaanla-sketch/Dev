@@ -206,7 +206,7 @@ try:
     driver.execute_script("arguments[0].click();", btn_final)
 
     # Tiempo de descarga solicitado
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] Esperando 70 segundos para la descarga...")
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Esperando 5 segundos para la descarga...")
     time.sleep(5)
 
    
